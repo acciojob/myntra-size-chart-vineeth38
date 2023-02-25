@@ -1,2 +1,15 @@
-
-/* Your CSS Code here. */
+table,td,th{
+	border:1px solid black;
+}
+table{
+	border-collapse:collapse;
+	width:100%;
+}
+th{
+	text-align:left;
+	background-color:indianred;
+}
+tr{
+	background-color:whitesmoke;
+}
+tr:hover {background-color: coral;}
